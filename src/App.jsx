@@ -1,6 +1,18 @@
 import { useState } from 'react'
 import './App.css'
 
+/**
+ * Nome do arquivo: App.jsx
+ * 
+ * @author Marcio 
+ *
+ * Descrição:
+ * Este arquivo React é responsável por implementar as funcionalidades
+ * de interação do usuário com a interface gráfica da RickAndMortyAPI.
+ * Aqui são tratados eventos de cliques, validações de entrada e comunicação
+ * com APIs para envio e recebimento de dados.
+ */
+
 function App() {
 
   const [getIMG, setIMG] = useState("");
